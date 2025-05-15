@@ -11,9 +11,9 @@ class GradientContainer extends StatelessWidget {
     return Container(
       decoration: BoxDecoration(
           gradient: LinearGradient(colors: [
-        const Color.fromARGB(255, 13, 53, 108),
-        const Color.fromARGB(255, 5, 24, 98),
-        const Color.fromARGB(255, 2, 5, 55),
+        const Color.fromARGB(255, 248, 104, 47),
+        const Color.fromARGB(255, 185, 43, 7),
+        const Color.fromARGB(255, 109, 38, 3),
       ], begin: Alignment.topLeft, end: Alignment.bottomRight)),
       child: Center(child: DiceRoller()),
     );
